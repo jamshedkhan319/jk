@@ -111,6 +111,36 @@ header h1 {
   text-align: center;
 }
 
+/* Social Icons facebok youtube whatsapp */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-link {
+  color: #ffffff;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-5px);
+}
+
+.social-link:hover:nth-child(1) {
+  color: #1877f2; /* Facebook blue */
+}
+
+.social-link:hover:nth-child(2) {
+  color: #ff0000; /* YouTube red */
+}
+
+.social-link:hover:nth-child(3) {
+  color: #25d366; /* WhatsApp green */
+}
+
 .image-container {
   display: flex;
   justify-content: center;
